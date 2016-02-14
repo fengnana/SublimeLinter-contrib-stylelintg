@@ -1,0 +1,10 @@
+SublimeLinter-contrib-stylelint-g
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to stylelint-g.
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/冯雪娜/SublimeLinter-contrib-stylelint-g
