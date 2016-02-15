@@ -1,0 +1,20 @@
+{
+ "schema_version": "1.0",
+ "packages": [
+  {
+   "name": "SublimeLinter-contrib-stylelint-g",
+   "description": "modify for sm",
+   "author": "fengnana",
+   "homepage": "https://github.com/fengnana/SublimeLinter-contrib-stylelint-g",
+   "last_modified": "2016-02-14",
+   "platforms": {
+    "*": [
+     {
+      "version": "1.0",
+      "url": "https://github.com/fengnana/SublimeLinter-contrib-stylelint-g/archive/master.zip"
+     }
+    ]
+   }
+  }
+ ]
+}
