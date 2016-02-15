@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "packages": [
   {
-   "name": "SublimeLinter-contrib-stylelint-g",
+   "name": "Lint for stylelint",
    "description": "modify for sm",
    "author": "fengnana",
    "homepage": "https://github.com/fengnana/SublimeLinter-contrib-stylelint-g",
