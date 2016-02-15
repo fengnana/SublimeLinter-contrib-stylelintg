@@ -3,6 +3,7 @@ var fs = require("fs");
 /// we're keeping this project-specific. 
 var CLI_JS_LOCATION = "/node_modules/stylelint/dist/cli.js";
 var PACKAGE_JSON = "/node_modules/stylelint/package.json";
+var STYLELINT_LOCATION = "stylelint/node_modules/"
 
 /// get the config location, if it's been provided.
 var configPath, prjPath, cliLocation, useOld = false;
@@ -63,8 +64,8 @@ if(cliLocation){
             .trim() + "/";
 
 }
-var postcss = require(prePath + "postcss");
-var syntax = require(prePath + "postcss-scss");
+var postcss = require(prePath + STYLELINT_LOCATION + "postcss");
+var syntax = require(prePath + STYLELINT_LOCATION + "postcss-scss");
 var stylelint = require(prePath + "stylelint");
 var reporter = postcss.plugin("reporter", require("./reporter/lib/reporter"));
 
