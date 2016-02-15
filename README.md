@@ -3,7 +3,7 @@ SublimeLinter-contrib-stylelintg
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-stylelint-g.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-stylelintg)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [stylelint-g](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [stylelintg](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
