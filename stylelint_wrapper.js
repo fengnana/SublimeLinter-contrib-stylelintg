@@ -10,7 +10,7 @@ var index = process.argv.indexOf("--config");
 if (index > -1) {
 
     configPath = prjPath = process.argv[index + 1];
-
+console.log(JSON.stringify(process.argv))
     /// choose a platform specific separator
     var sep = prjPath.indexOf("/") > -1 ? "/" : "\\";
 
@@ -64,6 +64,7 @@ if(cliLocation){
 
 }
 var postcss = require(prePath + "postcss");
+var syntax = require(prePath + "postcss-scss");
 var stylelint = require(prePath + "stylelint");
 var reporter = postcss.plugin("reporter", require("./reporter/lib/reporter"));
 
@@ -82,7 +83,8 @@ postcss([
     }), reporter()
 ])
 .process(css, {
-    from: fileName
+    from: fileName,
+    syntax: syntax
 })
 .then()
 .catch(function(err) {

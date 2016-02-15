@@ -9,11 +9,11 @@
 #
 
 """This module exports the StylelintG plugin class."""
+import os
+from SublimeLinter.lint import Linter, util
 
-from SublimeLinter.lint import NodeLinter, util
 
-
-class StylelintG(NodeLinter):
+class StylelintG(Linter):
     """Provides an interface to stylelint-g."""
 
     syntax = ('css', 'css3', 'sass', 'scss', 'postcss')

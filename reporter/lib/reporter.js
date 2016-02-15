@@ -12,7 +12,10 @@ module.exports = function () {
       source: result.root.source.input.from,
     });
 
-    if (!report) return;
+    if (!report) {
+      console.log("\n" + "---------- total 0 errors ----------" + "\n");
+      return;
+    }
 
     /// send to stdout...
     console.log(report);
