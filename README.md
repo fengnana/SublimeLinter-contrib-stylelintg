@@ -1,9 +1,8 @@
-SublimeLinter-contrib-stylelint-g
+SublimeLinter-contrib-stylelintg
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-stylelint-g.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-stylelint-g)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [stylelint-g](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [stylelintg](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
@@ -26,9 +25,9 @@ Before using this plugin, you must ensure that `stylelint` is installed on your 
 **Note:** This plugin requires `stylelint` __version__ or later.
 
 ### Linter configuration
-In order for `stylelint-g` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
+In order for `stylelintg` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
 
-Once you have installed and configured `stylelint`, you can proceed to install the SublimeLinter-contrib-stylelint-g plugin if it is not yet installed.
+Once you have installed and configured `stylelint`, you can proceed to install the SublimeLinter-contrib-stylelintg plugin if it is not yet installed.
 
 ### Plugin installation
 Please use [Package Control][pc] to install the linter plugin. This will ensure that the plugin will be updated when new versions are available. If you want to install from source so you can modify the source code, you probably know what you are doing so we won’t cover that here.
@@ -37,12 +36,12 @@ To install via Package Control, do the following:
 
 1. Within Sublime Text, bring up the [Command Palette][cmd] and type `install`. Among the commands you should see `Package Control: Install Package`. If that command is not highlighted, use the keyboard or mouse to select it. There will be a pause of a few seconds while Package Control fetches the list of available plugins.
 
-1. When the plugin list appears, type `stylelint-g`. Among the entries you should see `SublimeLinter-contrib-stylelint-g`. If that entry is not highlighted, use the keyboard or mouse to select it.
+1. When the plugin list appears, type `stylelintg`. Among the entries you should see `SublimeLinter-contrib-stylelintg`. If that entry is not highlighted, use the keyboard or mouse to select it.
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings][settings]. For information on generic linter settings, please see [Linter Settings][linter-settings].
 
-In addition to the standard SublimeLinter settings, SublimeLinter-contrib-stylelint-g provides its own settings. Those marked as “Inline Setting” or “Inline Override” may also be [used inline][inline-settings].
+In addition to the standard SublimeLinter settings, SublimeLinter-contrib-stylelintg provides its own settings. Those marked as “Inline Setting” or “Inline Override” may also be [used inline][inline-settings].
 
 |Setting|Description|Inline Setting|Inline Override|
 |:------|:----------|:------------:|:-------------:|
